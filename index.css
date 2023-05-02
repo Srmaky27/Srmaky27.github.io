@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    background-color: #6B728E;
+    overflow-y:unset;
+}
+
+.top{
+    height: 500px;
+    position: relative;
+    background: linear-gradient(198deg, rgb(38, 39, 52) 0%, rgba(107,114,142,1) 100%);
+}
+
+.pozasist{
+    transform: scaleX(-1);
+    position: relative;
+    top: 40%;
+    float: right;
+    
+
+}
+
+.toptxt{
+    position: absolute;
+    margin: 130px;
+    font-size: 60px;
+    color: #15161e;
+}
+
+.tptxt{
+    position: absolute;
+    margin: 160px;
+    top: 60px;
+}
+
+p, a{
+    color: #15161e;
+    font-family: poppins, sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 90px;
+    background-color:#404258;
+}
+
+a{
+    text-decoration: none;
+    color: #F4EEE0;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+
+.mainbdy{
+    background-image: url(planetaa.png);
+    background-size:cover;
+    filter: blur(4px);
+    min-height: 600px;
+    
+}
