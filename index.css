@@ -4,7 +4,7 @@ body{
     overflow-y:unset;
 }
 
-.top{
+.div1{
     height: 500px;
     position: relative;
     background: linear-gradient(198deg, rgb(38, 39, 52) 0%, rgba(107,114,142,1) 100%);
@@ -35,9 +35,11 @@ body{
 p, a{
     color: #15161e;
     font-family: poppins, sans-serif;
+
 }
 
 .navbar{
+    z-index: 1;
     position: sticky;
     top: 0px;
     display: flex;
@@ -54,10 +56,35 @@ a{
     font-size: 1.5rem;
 }
 
-.mainbdy{
+.div2{
     background-image: url(planetaa.png);
     background-size:cover;
-    filter: blur(4px);
     min-height: 600px;
+    display: flex; 
+    justify-content: flex-end;
     
 }
+
+.plantxt{
+    color: #F4EEE0;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 10%;
+    font-size: 30px;
+}
+
+.divngr{
+    height: 50px;
+    background-color: #404258;
+}
+
+.div3{
+    
+     background: linear-gradient(140deg, #6B728E 0%, #9BA4B5 100%);
+    height: 600px;
+}
+
+.sunimg{
+    height: 100%;
+}
+
